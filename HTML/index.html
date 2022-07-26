@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content = "Swastik Sharma" />
+
+    <title>Apparel - the Clothing Store</title>
+    <!-- Classless CSS Stylesheet Credits - https://oxal.org/projects/sakura/ -->
+    <link rel="stylesheet" href="../CSS/sakura.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Apparel Online Clothing Store</h1>
+      <em
+        ><p>
+          A fine collection of apparels made for everyone from all ages at affordable prices
+        </p></em
+      >
+    </header>
+
+    <nav id="menu">
+      <!-- Menu category buttons will be dynamically created -->
+    </nav>
+
+    <hr />
+
+    <main>
+      <h2 id="selected-category">
+        <!-- Selected category title will be dynamically updated -->
+      </h2>
+
+      <table>
+        <thead>
+          <!-- Statically created headings for the table -->
+          <tr>
+            <th>Product Name</th>
+            <th>Description</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+
+        <tbody id="category-products">
+          <!-- Dynamically created product rows -->
+        </tbody>
+
+      </table>
+    </main>
+
+    <!-- JavaScript Data Files -->
+    <script src="../Javascript/categories.js"></script>
+    <script src="../Javascript/products.js"></script>
+
+    <!-- Main App Implementation JavaScript File -->
+    <script src="../Javascript/app.js"></script>
+  </body>
+  
+</html>
